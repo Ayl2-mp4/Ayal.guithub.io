@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande - Service</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">AGENT <span>BOUTIQUE</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="commandes.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="service-container">
+        <div class="service-image">
+            <img id="service-img" src="" alt="Service">
+        </div>
+        <div class="service-details">
+            <h1 id="service-title"></h1>
+            <p id="service-price">Prix : 10€</p>
+
+            <form id="order-form">
+                <label for="email">Email ou Discord :</label>
+                <input type="text" id="contact-info" name="contact-info" required>
+                <button type="submit">Commander</button>
+            </form>
+            <p id="success-message" style="display:none; color: green;">Commande envoyée, vérifiez vos mails !</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Agent Boutique - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
+    
